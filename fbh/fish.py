@@ -15,11 +15,6 @@ with col2:
         channels="RGB"
     )
 
-# Center align the header
-st.markdown("<h2 style='text-align: center; color: black;'>Sign in</h1>", unsafe_allow_html=True)
-
-# Add another text with smaller font below the header
-st.markdown("<p style='text-align: center; font-size: medium;'>with your Google Account</p>", unsafe_allow_html=True)
 
 # Form for sign in
 contact_form = """
@@ -60,5 +55,5 @@ contact_form = """
 """
 
 st.markdown(contact_form, unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; font-size: medium; color: #42b72a;'>Create new account</p>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; font-size: 50; color: #7a7979;'>Create new account</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 70; color: #42b72a;'>Create new account</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 50; color: #7a7979;'>Meta</p>", unsafe_allow_html=True)
