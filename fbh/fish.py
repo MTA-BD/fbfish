@@ -9,7 +9,7 @@ with col3:
 
 with col2:
     st.image(
-    "fb.png",
+    "https://github.com/MTA-BD/fbfish/blob/main/fbh/fb.png?raw=true",
     width=150,
     channels="RGB"
     )
