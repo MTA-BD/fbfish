@@ -1,5 +1,11 @@
 import streamlit as st  # pip install streamlit
-
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
 col1, col2, col3 = st.columns(3)
 
 with col1:
