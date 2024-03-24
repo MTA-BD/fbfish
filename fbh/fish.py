@@ -58,5 +58,7 @@ contact_form = """
      <button type="submit" class="styledButton">Log in</button>
 </form>
 """
-st.markdown("<p style='text-align: center; font-size: medium; color: #42b72a;'>Create new account</p>", unsafe_allow_html=True)
+
 st.markdown(contact_form, unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: medium; color: #42b72a;'>Create new account</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 50; color: #7a7979;'>Create new account</p>", unsafe_allow_html=True)
