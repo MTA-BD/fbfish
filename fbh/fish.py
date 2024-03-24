@@ -55,5 +55,5 @@ contact_form = """
 """
 
 st.markdown(contact_form, unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; font-size: 70; color: #42b72a;'>Create new account</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 80; color: #42b72a;'>Create new account</p>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; font-size: 50; color: #7a7979;'>Meta</p>", unsafe_allow_html=True)
